@@ -5,7 +5,6 @@
 package walterkutschker33529406.argprograma_ejercicios_java;
 import java.util.Scanner;
 
-
 /**
  *
  * @author walterk
@@ -23,6 +22,7 @@ public class PracticaVectores1 {
         Scanner scan = new Scanner (System.in);
         numero = scan.nextInt();
         
+        
         if (numero>0 && numero<=100){
         
             return numero;
@@ -34,6 +34,8 @@ public class PracticaVectores1 {
             
         }
        
+
+        
     }
 
  
@@ -47,8 +49,10 @@ public class PracticaVectores1 {
        
         for (int i = 0; i < 10; i++) {
            
-            System.out.print("Por favor, cargue un numero del 1 al 100 por teclado, enter para confirmar.");    
+            System.out.print("Por favor, cargue un numero del 1 al 100 por teclado, enter para confirmar."+" vec"+"["+i+"] <--  ");    
             vector[i] = validarEntrada();
+            f.cls();
+            
             
         }
         
@@ -59,7 +63,8 @@ public class PracticaVectores1 {
             System.out.print(vector[i]+",");
             
         }
-    
+        
+        System.out.println("  ");
         System.out.println("FIN EJERCICIO VECTORES 1");
         System.out.println("  ");
     

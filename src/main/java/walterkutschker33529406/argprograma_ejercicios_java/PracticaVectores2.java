@@ -17,45 +17,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class PracticaVectores2 {
     
-    
-    public static int max(int[] vector){
-      
-        int numero_maximo = 0;
-        
-        for (int i = 0; i < 15; i++) {
-        
-            if (vector[i] >= numero_maximo) {
-                
-                numero_maximo=vector[i];
-                
-            }
-            
-        }
-        
-        return numero_maximo;
-        
-    }
-    
-    
-    public static int min(int[] vector){
-      
-        int numero_minimo = 99;
-        
-        for (int i = 0; i < 15; i++) {
-            
-         
-            if (vector[i] <= numero_minimo) {
-                
-                numero_minimo=vector[i];
-            }
-            
-        }
-        
-        return numero_minimo;
-       
-    }
 
- 
     public static void run () {
         
         System.out.println(" ");
@@ -73,8 +35,8 @@ public class PracticaVectores2 {
         
         System.out.println(Arrays.toString(vector_edades));
         
-        int menor_edad = min(vector_edades);
-        int mayor_edad = max(vector_edades);
+        int menor_edad = f.min(vector_edades);
+        int mayor_edad = f.max(vector_edades);
         
         System.out.println("El estudiante de menor edad tiene "+ String.valueOf(menor_edad)+" años.");
         System.out.println("El estudiante de mayor edad tiene "+ String.valueOf(mayor_edad)+" años.");
