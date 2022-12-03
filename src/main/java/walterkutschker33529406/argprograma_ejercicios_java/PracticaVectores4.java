@@ -13,8 +13,6 @@ import java.util.Arrays;
  * 
  */
   
-
-
 public class PracticaVectores4 {
 
 

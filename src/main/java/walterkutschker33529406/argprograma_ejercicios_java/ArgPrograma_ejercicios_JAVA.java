@@ -11,13 +11,13 @@ import java.io.IOException;
 
 /**
  * 
- * @author walterk
+ * @author Walter Kutschker
  */
 
  
-public class ArgPrograma_ejercicios_JAVA {
+// Descomentar en el cuerpo de main() para ejecutar los ejercicios.
 
-    
+public class ArgPrograma_ejercicios_JAVA {
     public static void main(String[] args) throws IOException {
 
         f.cls();
@@ -31,14 +31,10 @@ public class ArgPrograma_ejercicios_JAVA {
         // PracticaMatrices1.run();
         // PracticaMatrices2.run();
         // PracticaMatrices3.run();
-        PracticaMatrices4.run();
+        // PracticaMatrices4.run();
         // PracticaMatrices5.run();
         
-        
-
-
-
-
+    
 
     }
 }

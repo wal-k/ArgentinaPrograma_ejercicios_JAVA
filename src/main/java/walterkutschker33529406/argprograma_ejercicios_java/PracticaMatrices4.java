@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 public class PracticaMatrices4 {
 
+
     public static int validarEntradaRango(int desde, int hasta){
 
         int numero;
@@ -45,30 +46,33 @@ public class PracticaMatrices4 {
 
         String cadena;
         Scanner scan = new Scanner (System.in);
-        cadena = scan.next();
+        cadena = scan.nextLine();
+        System.out.println(cadena);
         
-        
-        if (cadena.length() > 0 && cadena.length() < 21){
-            System.out.println(cadena);
-            if (cadena == "n"){ 
-                return "Ninguno";
-            }
 
+        if (cadena.equals("n")){ 
+            return "Ninguno";
+        }
+
+        if (cadena.length() > 2 && cadena.length() < 21){
+           
             return cadena;
     
         }else{
             
-            System.out.println("Entrada invalida.Ingrese una cadena no vacía de máximo 20 caracteres");
-            return validarCarga();
+            System.out.println("Entrada invalida.Ingrese una cadena no vacía de entre 3 y 20 caracteres");
             
+            return validarCarga();
+
         }
        
+        
     }
 
     public static void cargaMenu(String [][] platosXacomp){
 
          // Iterando sobre filas
-         for (int i = 0; i < 2 ; i++) {
+         for (int i = 0; i < 20 ; i++) {
 
             f.cls();
 
