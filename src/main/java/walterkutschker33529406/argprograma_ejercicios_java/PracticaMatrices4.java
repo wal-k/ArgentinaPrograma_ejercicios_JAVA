@@ -108,7 +108,6 @@ public class PracticaMatrices4 {
             System.out.println(" ");
             System.out.print(i+") ");
             
-
             for (int j = 0; j < matriz[i].length; j++) {
 
                 System.out.print(matriz[i][j]+"    ");
@@ -147,9 +146,6 @@ public class PracticaMatrices4 {
         String[][] platosXacomp = new String[20][5];  
 
         // cargo la matriz con placeholders.
-
-        System.out.println("len = "+platosXacomp.length); 
-        System.out.println("len = "+platosXacomp[0].length);
        
         for (int i = 0; i < platosXacomp.length; i++) {
            

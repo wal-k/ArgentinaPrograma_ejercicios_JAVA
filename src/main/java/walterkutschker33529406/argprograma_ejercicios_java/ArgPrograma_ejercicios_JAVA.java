@@ -6,15 +6,11 @@
 package walterkutschker33529406.argprograma_ejercicios_java;
 import java.io.IOException;
 
-
-
-
 /**
  * 
  * @author Walter Kutschker
  */
 
- 
 // Descomentar en el cuerpo de main() para ejecutar los ejercicios.
 
 public class ArgPrograma_ejercicios_JAVA {
@@ -32,9 +28,7 @@ public class ArgPrograma_ejercicios_JAVA {
         // PracticaMatrices2.run();
         // PracticaMatrices3.run();
         // PracticaMatrices4.run();
-        // PracticaMatrices5.run();
+        //PracticaMatrices5.run();
         
-    
-
     }
 }
