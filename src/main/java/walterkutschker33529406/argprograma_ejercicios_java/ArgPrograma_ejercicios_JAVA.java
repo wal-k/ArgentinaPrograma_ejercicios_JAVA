@@ -12,6 +12,8 @@ import java.io.IOException;
  */
 
 // Descomentar en el cuerpo de main() para ejecutar los ejercicios.
+// Ejecutar en consola del sistema para ver la salida correctamente.
+// (En terminales de IDE se muestra mal).
 
 public class ArgPrograma_ejercicios_JAVA {
     public static void main(String[] args) throws IOException {
@@ -28,7 +30,11 @@ public class ArgPrograma_ejercicios_JAVA {
         // PracticaMatrices2.run();
         // PracticaMatrices3.run();
         // PracticaMatrices4.run();
-        //PracticaMatrices5.run();
-        
+        // PracticaMatrices5.run();
+
+        // PracticaCollections.run1();
+        // PracticaCollections.run2();
+         PracticaCollections.run3();
+
     }
 }

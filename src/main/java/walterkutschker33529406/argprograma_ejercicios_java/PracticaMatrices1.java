@@ -22,8 +22,6 @@ public class PracticaMatrices1 {
 
     public static int validarEntrada(){
 
-        
-        
         int numero;
         Scanner scan = new Scanner (System.in);
         numero = scan.nextInt();
