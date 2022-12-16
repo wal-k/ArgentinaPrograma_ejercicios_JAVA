@@ -34,7 +34,9 @@ public class ArgPrograma_ejercicios_JAVA {
 
         // PracticaCollections.run1();
         // PracticaCollections.run2();
-         PracticaCollections.run3();
+        //PracticaCollections.run3();
+
+        PracticaExepciones.run();
 
     }
 }
